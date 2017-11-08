@@ -1,0 +1,33 @@
+{
+  "name": "element-theme-markartisan",
+  "version": "1.0.0",
+  "description": "Element-UI theme for Markartisan.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuwenhui/element-theme-markartisan.git"
+  },
+  "keywords": [
+    "Element-UI",
+    "Vue"
+  ],
+  "author": "Max.Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuwenhui/element-theme-markartisan/issues"
+  },
+  "homepage": "https://github.com/yuwenhui/element-theme-markartisan#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

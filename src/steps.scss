@@ -1,0 +1,44 @@
+@import "mixins/mixins";
+
+@include b(steps) {
+  display: flex;
+
+  @include m(simple) {
+    padding: 13px 8%;
+    border-radius: 4px;
+    background: $--background-color-base;
+  }
+
+  @include m(horizontal) {
+    white-space: nowrap;
+
+    > .el-step {
+
+      > .el-step__head {
+
+        > .el-step__icon {
+
+          &.is-icon {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+
+      > .el-step__main {
+
+        > .el-step__title {
+
+          &.is-process {
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+
+  @include m(vertical) {
+    height: 100%;
+    flex-flow: column;
+  }
+}
