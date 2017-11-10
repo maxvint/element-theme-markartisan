@@ -16,40 +16,29 @@
   }
 
   @include e(label) {
-    position: absolute;
     transition: .2s;
     height: $--switch-height;
     display: inline-block;
     font-size: $--switch-font-size;
-    font-weight: 400;
+    font-weight: 500;
     cursor: pointer;
     vertical-align: middle;
     color: $--color-text-primary;
-    z-index: 10;
 
     @include when(active) {
-      color: $--color-white;
-
-      > span {
-        display: block;
-      }
+      color: $--color-primary;
     }
 
     @include m(left) {
-      left: 20px;
+      margin-right: 10px;
     }
     @include m(right) {
-      right: 20px;
+      margin-left: 10px;
     }
-
     & * {
-      line-height: 22px;
+      line-height: 1;
       font-size: $--switch-font-size;
       display: inline-block;
-    }
-
-    > span {
-      display: none;
     }
   }
 
