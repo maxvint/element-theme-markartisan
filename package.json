@@ -1,6 +1,6 @@
 {
   "name": "element-theme-markartisan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Element-UI theme for Markartisan.com",
   "main": "index.js",
   "scripts": {
